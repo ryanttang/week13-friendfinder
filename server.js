@@ -5,7 +5,7 @@ const BODYPARSER = require("body-parser");
 
 // Set up the Express App
 
-const APP = express();
+const APP = EXPRESS();
 const PORT = process.env.PORT || 8080;
 
 // Set up the Express app to handle data parsing
